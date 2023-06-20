@@ -16,8 +16,8 @@ export default function Informations() {
             link: '#'
         },
         {
-            title: 'Conexão',
-            icon: 'iconoir:community',
+            title: 'Youtube',
+            icon: 'ri:youtube-line',
             link: '#'
         },
         {

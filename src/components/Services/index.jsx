@@ -41,10 +41,12 @@ export default function Services() {
     },
     ]
     return (
-        <Grid h='100vh' w='100%' bg='brand.P1' gridTemplateColumns='1fr 1fr' gridTemplateRows='1fr 1fr' gap='40px' padding={{ base: '40px' }}>
-            {servicesData.map((service, index) => (
-                <ServicesCards key={index} title={service.title} lists={service.items} />
-            ))}
-        </Grid>
+        <Flex h='100vh' w='100%' justify='center' bg='brand.P1'>
+            <Grid w='100%' gridTemplateColumns='1fr 1fr' gridTemplateRows='1fr 1fr' gap='40px' padding={{ base: '40px' }} alignItems='center' justifyItems='center'>
+                {servicesData.map((service, index) => (
+                    <ServicesCards key={index} title={service.title} lists={service.items} />
+                ))}
+            </Grid>
+        </Flex>
     )
 }
