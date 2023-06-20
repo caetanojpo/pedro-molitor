@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Algerian";
-  src: local("Algerian"), url("../fonts/algerian.ttf") format("truetype");
+  src: local("Algerian"), url("../assets/fonts/algerian.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Hysteria";
   src: local("Hysteria"),
-    url("../fonts/HysteriaRoller.ttf");
+    url("../assets/fonts/HysteriaRoller.ttf");
 }

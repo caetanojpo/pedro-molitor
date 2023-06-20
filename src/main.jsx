@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles/index.css'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
-import './fonts/algerian.ttf'
-import './fonts/HysteriaRoller.ttf'
+import '/src/assets/fonts/algerian.ttf'
+import '/src/assets/fonts/HysteriaRoller.ttf'
 import Router from './routes/index.jsx'
 
 const theme = extendTheme({

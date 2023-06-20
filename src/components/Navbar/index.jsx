@@ -24,7 +24,7 @@ export default function Navbar() {
     ]
     return (
         <Flex as='nav' h='10vh' bg='transparent' align='center' justify='space-between' padding='0px 10px' position='relative'>
-            <Image src={logo} h='inherit' alt='Logo Pedro Molitor' />
+            <Image src={logo} h='80%' alt='Logo Pedro Molitor' />
             <List display='flex' gap='30px' fontWeight={600}>
                 {
                     NavLinks.map((item, index) => (

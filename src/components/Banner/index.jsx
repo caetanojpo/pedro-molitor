@@ -6,7 +6,7 @@ import pedro from './pedro-molitor.png'
 
 export default function Banner() {
     return (
-        <Flex as='section' h='80vh' w='100%' bgImage={banner} bgPosition='right' bgSize='fit'
+        <Flex as='section' h='80vh' w='100%' bgImage={banner} bgPosition='right' bgSize='cover'
             bgRepeat='no-repeat' justify='space-around' align='center'>
             <Flex flexDir='row' w='50%' paddingLeft='20px' justify='end'  >
                 <Flex flexDir='column' gap='8px' >
