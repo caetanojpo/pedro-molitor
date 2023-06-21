@@ -6,29 +6,29 @@ import { Icon } from "@iconify/react";
 export default function Informations() {
     const infos = [
         {
-            title: 'Instagram',
-            icon: 'mdi:instagram',
-            link: '#'
+            title: 'Facebook',
+            icon: 'ic:baseline-facebook',
+            link: 'https://www.facebook.com/pedro.molitor'
         },
         {
-            title: 'LinkedIn',
-            icon: "mdi:linkedin",
-            link: '#'
+            title: 'Instagram',
+            icon: 'mdi:instagram',
+            link: 'https://www.instagram.com/conexao.odontolegal/'
         },
         {
             title: 'Youtube',
             icon: 'ri:youtube-line',
-            link: '#'
+            link: 'https://www.youtube.com/@conexao.odontolegal'
         },
         {
-            title: 'Facebook',
-            icon: 'ic:baseline-facebook',
-            link: '#'
+            title: 'LinkedIn',
+            icon: "mdi:linkedin",
+            link: 'https://www.linkedin.com/in/pedromolitor/'
         },
         {
             title: 'Lattes',
             icon: 'mdi:resume',
-            link: '#'
+            link: 'http://lattes.cnpq.br/3271081768759406'
         },
     ]
     return (
@@ -37,7 +37,7 @@ export default function Informations() {
                 justifyContent='space-around' alignItems='center'>
                 {infos.map((info, index) => (
                     <ListItem key={index} _hover={{ color: 'brand.hover' }}>
-                        <Link display='flex' alignItems='center' flexDir='column'>
+                        <Link display='flex' alignItems='center' flexDir='column' target="_blank" href={info.link}>
                             <Icon fontSize='40px' icon={info.icon} />
                             <Text>{info.title}</Text>
                         </Link>

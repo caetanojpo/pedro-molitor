@@ -13,7 +13,7 @@ export default function Community() {
     ]
     return (
         <>
-            <Flex h='100vh' w='100%'>
+            <Flex id='community' h='100vh' w='100%'>
                 <Flex flexDir='column' w='50%' textAlign='center' color='brand.P1' gap='20px' padding='40px'>
                     <Flex flexDir='column' fontWeight='bold' fontFamily='Hysteria' w='100%' >
                         <Heading fontSize={{ lg: '32px' }}>COMUNIDADE</Heading>

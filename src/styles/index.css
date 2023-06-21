@@ -1,5 +1,8 @@
 @import-normalize;
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 @font-face {

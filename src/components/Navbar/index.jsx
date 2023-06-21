@@ -9,21 +9,29 @@ export default function Navbar() {
             link: '#home'
         },
         {
-            title: 'Sobre Mim',
-            link: '#sobreMim'
+            title: 'Serviços',
+            link: '#services'
         },
         {
-            title: 'Experiência',
-            link: '#experiencia'
+            title: 'Sobre Mim',
+            link: '#about'
+        },
+        {
+            title: 'Comunidade',
+            link: '#community'
         },
         {
             title: 'Contato',
-            link: '#contato'
+            link: '#forms'
         },
+        {
+            title: 'Parceiros',
+            link: '#partners'
+        }
 
     ]
     return (
-        <Flex as='nav' h='10vh' bg='transparent' align='center' justify='space-between' padding='0px 10px' position='relative'>
+        <Flex as='nav' id='home' h='10vh' bg='transparent' align='center' justify='space-between' padding='0px 10px' position='relative'>
             <Image src={logo} h='80%' alt='Logo Pedro Molitor' />
             <List display='flex' gap='30px' fontWeight={600}>
                 {

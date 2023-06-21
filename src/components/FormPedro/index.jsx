@@ -3,7 +3,7 @@ import logo from './Logo Pedro - lupa.png'
 
 export default function FormPedro() {
     return (
-        <Flex h='100vh' bg='brand.P1' padding='50px'>
+        <Flex id='forms' h='100vh' bg='brand.P1' padding='50px'>
             <Flex borderRadius='8px' h='100%' w='100%' bg='white' >
                 <form style={{ width: '100%', height: '100%' }}>
                     <Flex w='100%' h='20%' align='center' justify='space-between' padding='10px 40px'>
